@@ -1,7 +1,9 @@
-from layers.baseModelLayer.gameCharacter.game_character import GameCharacter
+from abc import ABC
+
+from layers.baseGame.gameCharacter.game_character import GameCharacter
 
 
-class NonPlayableCharacter(GameCharacter):
+class NonPlayableCharacter(GameCharacter, ABC):
     """
     Defines games non playable characters (NPCs), these are the characters that exist freely roaming in game.
 

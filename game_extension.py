@@ -1,6 +1,6 @@
 from abc import abstractmethod, ABC
 
-from layers.baseModelLayer.gameError.game_error import GameError
+from layers.baseGame.gameError.game_error import GameError
 
 
 class GameExtension(ABC):
